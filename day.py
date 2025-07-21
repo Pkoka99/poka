@@ -6,7 +6,7 @@ config = DaytonaConfig(api_key="dtn_d3e4df18b52db372305506f02de7fc79c568a5a33592
 # Initialize the Daytona clienta
 daytona = Daytona(config)
 
-# Create a new sandbox with 4 vCPUs
+# Create a new sandbox with 4 vCPUse
 sandbox = daytona.create(
     image=Image.debian_slim("3.12"),  # You can change this image if needed
     resources=Resources(
