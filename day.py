@@ -3,7 +3,7 @@ from daytona import Daytona, DaytonaConfig, Resources, Image
 # Define your configuration with your actual API key
 config = DaytonaConfig(api_key="dtn_d3e4df18b52db372305506f02de7fc79c568a5a33592eed3e65da758ffe55e54")
 
-# Initialize the Daytona client
+# Initialize the Daytona clienta
 daytona = Daytona(config)
 
 # Create a new sandbox with 4 vCPUs
